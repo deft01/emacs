@@ -1,4 +1,7 @@
-
+(add-hook 'emacs-startup-hook
+  (lambda ()
+    (load-theme 'deeper-blue)
+    ))
 
 
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
